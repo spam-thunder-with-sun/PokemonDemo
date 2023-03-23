@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A40D42B-D4F3-4A4B-B36F-3DC9363F496E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PokemonDemo</RootNamespace>
+    <AssemblyName>PokemonDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OverWorld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverWorld.Designer.cs">
+      <DependentUpon>OverWorld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pokemon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalutoIniziale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalutoIniziale.Designer.cs">
+      <DependentUpon>SalutoIniziale.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="OverWorld.resx">
+      <DependentUpon>OverWorld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalutoIniziale.resx">
+      <DependentUpon>SalutoIniziale.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220px-HGSS_Percorso_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360px-Percorso_1_3g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_CAvanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_CIndietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_CLatoD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_CLatoS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_LatoD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_Retro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_CAvanti1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_LatoS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_Fronte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_Battaglia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_Fronte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_FronteCamminata1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_FronteCamminata2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_LatoDx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_LatoDxCamminata1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_LatoDxCamminata2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_LatoSx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_LatoSxCamminata1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_LatoSxCamminata2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_Retro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_RetroCamminata1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore1_RetroCamminata2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore2_Battaglia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore2_LatoDx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore2_LatoDxCamminata1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allenatore2_LatoDxCamminata2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlastoiseDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlastoiseDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chaDa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chaDi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CharizardDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CharizardDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElectabuzzDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElectabuzzDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FearowDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FearowDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GyaradosDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GyaradosDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitmonchanDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitmonchanDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitmonleeDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitmonleeDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MagmarDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MagmarDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnixDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnixDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PidgeotDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PidgeotDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PikachuDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PikachuDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RaticateDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RaticateDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VenusaurDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VenusaurDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VictreebelDavanti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VictreebelDietro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diglett_Cave_RBY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diglett_Cave_RBY01.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

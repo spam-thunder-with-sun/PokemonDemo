@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Percorso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360px-Percorso_1_3g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_CAvanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_CAvanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_CIndietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_CIndietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_CLatoD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_CLatoD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_CLatoS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_CLatoS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_LatoD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_LatoD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Retro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Retro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Fronte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Fronte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_LatoS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_LatoS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_Battaglia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_Battaglia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_Fronte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_Fronte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_FronteCamminata1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_FronteCamminata1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_FronteCamminata2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_FronteCamminata2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_LatoDx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_LatoDx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_LatoDxCamminata1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_LatoDxCamminata1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_LatoDxCamminata2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_LatoDxCamminata2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_LatoSx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_LatoSx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_LatoSxCamminata1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_LatoSxCamminata1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_LatoSxCamminata2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_LatoSxCamminata2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_Retro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_Retro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_RetroCamminata1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_RetroCamminata1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore1_RetroCamminata2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore1_RetroCamminata2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore2_Battaglia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore2_Battaglia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore2_LatoDx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore2_LatoDx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore2_LatoDxCamminata1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore2_LatoDxCamminata1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allenatore2_LatoDxCamminata2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allenatore2_LatoDxCamminata2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlastoiseDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlastoiseDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlastoiseDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlastoiseDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chaDa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chaDa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chaDi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chaDi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CharizardDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CharizardDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CharizardDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CharizardDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ElectabuzzDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElectabuzzDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ElectabuzzDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElectabuzzDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FearowDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FearowDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FearowDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FearowDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GyaradosDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GyaradosDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GyaradosDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GyaradosDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HitmonchanDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HitmonchanDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HitmonchanDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HitmonchanDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HitmonleeDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HitmonleeDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HitmonleeDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HitmonleeDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagmarDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MagmarDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagmarDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MagmarDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnixDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnixDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnixDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnixDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PidgeotDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PidgeotDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PidgeotDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PidgeotDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PikachuDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PikachuDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PikachuDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PikachuDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaticateDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RaticateDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaticateDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RaticateDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VenusaurDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VenusaurDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VenusaurDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VenusaurDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VictreebelDavanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VictreebelDavanti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VictreebelDietro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VictreebelDietro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diglett_Cave_RBY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diglett_Cave_RBY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diglett_Cave_RBY01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diglett_Cave_RBY01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
